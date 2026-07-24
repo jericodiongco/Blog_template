@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jerico Diongco — Student Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<!-- ===== HEADER + NAV ===== -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#home" class="logo">
+      <span class="logo-bracket">&lt;</span>JD<span class="logo-bracket">/&gt;</span>
+    </a>
+
+    <div class="header-id">
+      <p class="header-name">Jerico Diongco</p>
+      <p class="header-course">BSIT — 2nd Year &nbsp;·&nbsp; <span class="motto">"Still debugging, still growing."</span></p>
+    </div>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-burger" aria-label="Open navigation menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="site-nav">
+      <a href="#home"><span class="nav-tag"></span>Home</a>
+      <a href="#about"><span class="nav-tag"></span>About</a>
+      <a href="#skills"><span class="nav-tag"></span>Skills</a>
+      <a href="#gallery"><span class="nav-tag"></span>Gallery</a>
+      <a href="#contact"><span class="nav-tag"></span>Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== HOME ===== -->
+  <section id="home" class="section home-section">
+    
+
+      <div class="home-intro">
+        <p class="eyebrow">// home section</p>
+        <h1>Hi, I'm Jerico.<br>I build things for the web.</h1>
+        <p class="lead">
+          I'm a second-year IT student who enjoys turning half-finished ideas into
+          working webpages. This portfolio is my current build-in-progress — part
+          resume, part playground, and a small proof that I can ship a page from
+          scratch using nothing but HTML and CSS.
+        </p>
+        <div class="home-cta">
+          <a href="#about" class="btn btn-primary">Read my story</a>
+          <a href="#contact" class="btn btn-ghost">Say hello</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about-section">
+    <div class="section-inner">
+      <p class="eyebrow">// about section</p>
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about-grid">
+        <aside class="profile-card">
+          <img src="profile.jpg" alt="My-profile" class="profile-photo">
+          <dl class="profile-facts">
+            <div><dt>Name</dt><dd>Jerico Diongco</dd></div>
+            <div><dt>Program</dt><dd>BS Information Technology</dd></div>
+            <div><dt>School</dt><dd>University of Cabuyao</dd></div>
+            <div><dt>Based in</dt><dd>Cabuyao, Laguna, PH</dd></div>
+            <div><dt>Goal</dt><dd>Front-end Developer</dd></div>
+          </dl>
+        </aside>
+
+        <div class="about-text">
+          <p>
+            I'm a second-year Information Technology student at the University of
+            Cabuyao, where I spend most of my time somewhere between a lecture on
+            data structures and a browser tab full of CSS documentation. I got
+            interested in web development after building a class project that
+            was, honestly, held together with duct tape — but it worked, and
+            that feeling was enough to keep me going.
+          </p>
+          <p>
+            My educational background started with a general curiosity about
+            how computers actually work, which eventually narrowed down into a
+            specific interest in how websites are built and styled. Through my
+            coursework in web technologies, programming logic, and database
+            fundamentals, I've learned that good software is less about
+            memorizing syntax and more about learning to break a big, messy
+            problem into small, solvable pieces.
+          </p>
+          <p>
+            My career goal is to grow into a front-end developer who can take a
+            design idea and turn it into a fast, accessible, and genuinely
+            pleasant interface. In the nearer term, I'm focused on getting
+            comfortable with responsive layouts, clean semantic markup, and the
+            kind of small interaction details that make a webpage feel
+            considered rather than default.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section skills-section">
+    <div class="section-inner">
+      <p class="eyebrow">// skills section</p>
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-icon">&lt;/&gt;</span>
+          <h3>HTML</h3>
+          <p>Structuring pages with clean, semantic markup that makes sense to both browsers and people.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">{ }</span>
+          <h3>CSS</h3>
+          <p>Styling layouts with Flexbox and Grid, and sweating the small details like spacing and hover states.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">◆</span>
+          <h3>Problem Solving</h3>
+          <p>Breaking down a messy requirement into small steps until the solution actually fits together.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">◎</span>
+          <h3>Teamwork</h3>
+          <p>Splitting tasks fairly, giving honest feedback on code, and actually reading the group chat.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">✎</span>
+          <h3>Communication</h3>
+          <p>Explaining a technical decision in plain language, whether to a teammate or a professor.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section gallery-section">
+    <div class="section-inner">
+      <p class="eyebrow">// gallery section</p>
+      <h2 class="section-title">Gallery</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-item g1"><img src="caferoo.jpg" alt="caferoo-pic"><figcaption>Caferoo Tagaytay</figcaption></figure>
+        <figure class="gallery-item g2"><img src="nuvali.jpg" alt="nuvali"><figcaption>walking at nuvali</figcaption></figure>
+        <figure class="gallery-item g3"><img src="silang-tagaytay.jpg" alt="silang-pic"><figcaption>silang-tagaytay</figcaption></figure>
+        <figure class="gallery-item g4"><img src="skyranch.jpg" alt="skyranch"><figcaption>skyranch</figcaption></figure>
+        <figure class="gallery-item g5"><img src="calayo.jpg" alt="calayo-pic"><figcaption>calayo beach</figcaption></figure>
+        <figure class="gallery-item g6"><img src="pililla-rizal.jpg" alt="pilillia-pic"><figcaption>pililla</figcaption></figure>
+        <figure class="gallery-item g7"><img src="antipolo.jpg" alt="antipolo-pic"><figcaption>city lights of antipolo</figcaption></figure>
+        <figure class="gallery-item g8"><img src="pamana.jpg" alt="pamana-pic"><figcaption>pamana resort</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section">
+    <div class="section-inner">
+      <p class="eyebrow">// contact section</p>
+      <h2 class="section-title">Contact</h2>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Jerico Diongco" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="jericodiongco7@gmail.com" required>
+        </div>
+        <div class="form-row">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Let's collaborate" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="reset" class="btn btn-ghost">Reset</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <div>
+      <p class="footer-name">Jerico Diongco</p>
+      <p class="footer-section">BSIT — Section 2B</p>
+    </div>
+    <p class="footer-copy">&copy; <span id="year">2026</span> Jerico Diongco. All rights reserved.</p>
+    <div class="footer-social">
+      <a href="#" aria-label="Facebook">FB</a>
+      <a href="#" aria-label="Instagram">IG</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
